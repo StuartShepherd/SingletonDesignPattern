@@ -7,13 +7,13 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("singleton example");
-            Console.WriteLine("singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.");
+            Console.WriteLine("Singleton design pattern example");
+            Console.WriteLine("Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.");
             Console.WriteLine();
 
-            Console.WriteLine("if you see the same value, then singleton was reused");
-            Console.WriteLine("if you see different values, then 2 singletons were created");
-            Console.WriteLine("result:");
+            Console.WriteLine("If you see the same value, then singleton was reused");
+            Console.WriteLine("If you see different values, then 2 singletons were created");
+            Console.WriteLine("Result:");
 
             Thread process1 = new Thread(() =>
             {
